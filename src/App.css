@@ -81,6 +81,9 @@ body {
 .user img {
   font-size: 15px;
   border-radius: 50%;
+  width: 20%;
+  height: 20%;
+  margin-right: 5px;
 }
 
 input,
@@ -109,6 +112,11 @@ form{
   
   
 }
+.formdiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 input,
 textarea{
@@ -120,4 +128,7 @@ textarea{
   color: rgb(97, 4, 184);
   font-size: 16px;
   z-index: 1;
+}
+.submitForm:hover{
+  cursor: pointer;
 }
